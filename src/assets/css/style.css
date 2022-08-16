@@ -1,0 +1,137 @@
+@import './_reboot.css';
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    
+}
+
+.form-container {
+    margin: 0 50px;
+}
+
+.left {
+    display: flex;
+}
+
+.left img {
+    margin: auto;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.right h3 {
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+}
+
+.form-container input {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    color: #8d8d8d;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 14px;
+    outline: 0;
+    padding: 9px 20px;
+    text-align: left;
+    transition: all .3s ease;
+    width: 100%;
+}
+
+.btn-lgn {
+    background-color: #000;
+    border-radius: 6px;
+    box-shadow: 0 0 0 rgb(0 0 0 / 16%);
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    padding: 6px 28px;
+    text-decoration: none;
+    transition: all .3s ease;
+    border: transparent 1px solid;
+}
+
+.btn-lgn:hover {
+    color: #000;
+    background-color: #fff;
+    border: solid 1px #000;
+}
+
+.submit-login {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-height: 100px;
+    height: 100px;
+    background-color: #333;
+}
+
+.logo a img {
+    margin: 20px 30px;
+}
+
+.user-info {
+    margin : auto 0;
+    display: flex;
+}
+
+.user-info i {
+    margin : auto 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+.user-info span {
+    margin: 0 40px 0 15px;
+    color: #fff;
+}
+
+.user-info i:first-child {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.user-list {
+    max-width: 1200px;
+    height: 100px;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+    border: 1px solid #000;
+}
+
+.inn-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
+}
+
+.p-multiselect-panel {
+    z-index : 50000 !important;
+}
+
